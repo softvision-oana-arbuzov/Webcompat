@@ -13,7 +13,7 @@ public class ReportBugTest extends BaseTest {
     private String siteURL;
 
     public ReportBugTest (){
-        this.siteURL = getPropertyFromAppProp("sitetURL");
+        this.siteURL = getPropertyFromAppProp("siteURL");
     }
 
     @BeforeMethod
@@ -39,6 +39,6 @@ public class ReportBugTest extends BaseTest {
 
         this.reportBugPage.clickConfirmURLButton();
 
-        Assert.assertTrue(this.reportBugPage.getPageProblem(), "What is wrong with the page at " + siteURL + " ?");
+        Assert.assertTrue(this.reportBugPage.getPageProblem(), "What is wrong with the page at" + siteURL + " ?");
     }
 }

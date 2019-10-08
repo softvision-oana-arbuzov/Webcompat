@@ -5,8 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-import static helpers.WebElementHelper.areVisible;
-import static helpers.WebElementHelper.setFieldValue;
+import static helpers.WebElementHelper.*;
 
 public class ReportBugPage extends BasePage {
 
@@ -15,7 +14,7 @@ public class ReportBugPage extends BasePage {
     @FindBy(id = "url")
     private WebElement siteURL;
 
-    @FindBy(className = "next-step step-1 issue-btn")
+    @FindBy(xpath = "/html/body/main/section[2]/form/div[1]/div[2]/div/div/button")
     private WebElement confirmURLButton;
 
     @FindBy(className = "next-step step-3 issue-btn")
@@ -27,7 +26,7 @@ public class ReportBugPage extends BasePage {
     @FindBy(className = "input-description")
     private WebElement typeURLDescription;
 
-    @FindBy(css = "section.js-ReportForm.grid.is-closed:nth-child(2) form.form.grid-row.js-loader.loader.issue-form div.step-container.step2.col.open:nth-child(4) div.row:nth-child(1) div.input-control div.form-radio.choice-control.form-element.js-Form-group.is-validated.js-no-error div.js-Form-information.form-label-message:nth-child(1) > label.form-label")
+    @FindBy(xpath = "/html/body/main/section[2]/form/div[3]/div[1]/div/div/div/label")
     private WebElement pageProblem;
 
     @Override
@@ -57,11 +56,12 @@ public class ReportBugPage extends BasePage {
     }
 
     public void clickConfirmURLButton() {
+        waitForElementToAppear(confirmURLButton);
         confirmURLButton.click();
     }
 
     public boolean getPageProblem() {
-        return areVisible(pageProblem);
+        return isElementDisplayed(pageProblem);
     }
 
     public void open() {
