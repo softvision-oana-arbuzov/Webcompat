@@ -23,7 +23,7 @@ public class ReportBugTest extends BaseTest {
 
     @Test(description = "[Happy Flow] Test type in siteURL\n"
             + "Steps:\n"
-            + "1.Navigate to ReportBug page URL: https://webcompat-ui-redesign.herokuapp.com/\n"
+            + "1.Navigate to ReportBug page URL:https://staging.webcompat.com/issues/new\n"
             + "2.Fill in the siteURL: https://www.google.com/\n"
             + "3.Click Confirm button\n"
             + "4.Verify that next section becomes active - What is wrong with the page at siteURL? -\n")

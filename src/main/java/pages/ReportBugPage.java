@@ -1,6 +1,7 @@
 package pages;
 
 import helpers.WebElementHelper;
+import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -9,7 +10,7 @@ import static helpers.WebElementHelper.*;
 
 public class ReportBugPage extends BasePage {
 
-    public final static String URL = "https://webcompat-ui-redesign.herokuapp.com/";
+    public final static String URL = "https://staging.webcompat.com/issues/new";
 
     @FindBy(id = "url")
     private WebElement siteURL;

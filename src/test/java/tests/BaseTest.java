@@ -3,11 +3,14 @@ package tests;
 import helpers.BrowserName;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.commons.lang3.StringUtils;
+import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+
+import java.util.Date;
 
 public class BaseTest {
   private WebDriver driver;
@@ -27,6 +30,16 @@ public class BaseTest {
       WebDriverManager.chromedriver().setup();
       driver = new ChromeDriver();
       driver.manage().window().maximize();
+
+      //Set Cookie for the new design of the page https://staging.webcompat.com/issues/new
+      Cookie newDesign = new Cookie.Builder("exp", "form-v2")
+              .domain("staging.webcompat.com")
+              .expiresOn(new Date(2020, 10, 28))
+              .isHttpOnly(false)
+              .isSecure(false)
+              .path("/")
+              .build();
+      driver.manage().addCookie(newDesign);
     }
     else if (browserVariable.equals(BrowserName.FIREFOX.getName())){
       WebDriverManager.firefoxdriver().setup();
