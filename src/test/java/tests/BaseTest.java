@@ -30,16 +30,6 @@ public class BaseTest {
       WebDriverManager.chromedriver().setup();
       driver = new ChromeDriver();
       driver.manage().window().maximize();
-
-      //Set Cookie for the new design of the page https://staging.webcompat.com/issues/new
-      Cookie newDesign = new Cookie.Builder("exp", "form-v2")
-              .domain("staging.webcompat.com")
-              .expiresOn(new Date(2020, 10, 28))
-              .isHttpOnly(false)
-              .isSecure(false)
-              .path("/")
-              .build();
-      driver.manage().addCookie(newDesign);
     }
     else if (browserVariable.equals(BrowserName.FIREFOX.getName())){
       WebDriverManager.firefoxdriver().setup();

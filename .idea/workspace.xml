@@ -8,6 +8,7 @@
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/ReportBugTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ReportBugTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pages/ReportBugPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/ReportBugPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/tests/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/ReportBugTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/ReportBugTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,11 +22,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/BaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="41" selection-start-line="41" selection-end-line="41" />
+            <state relative-caret-position="-13">
+              <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/ReportBugTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="292">
+              <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#357#358#0" expanded="true" />
+                <element signature="e#421#422#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pages/WebUiPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1300">
+              <caret line="53" selection-start-line="53" selection-end-line="53" />
             </state>
           </provider>
         </entry>
@@ -42,8 +66,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pages/ReportBugPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-194">
-              <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+            <state relative-caret-position="392">
+              <caret line="74" column="61" selection-start-line="74" selection-start-column="54" selection-end-line="74" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -52,6 +76,13 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -69,9 +100,10 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/resources/app.properties" />
         <option value="$PROJECT_DIR$/src/main/java/helpers/Utilities.java" />
+        <option value="$PROJECT_DIR$/src/main/java/helpers/ChangeBrowserCookie.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/ReportBugPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/ReportBugTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" />
       </list>
     </option>
   </component>
@@ -103,7 +135,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -177,14 +208,16 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571322367217" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571406259057" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/selenium-java-3.141.59/libs/okio-1.14.0.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -198,7 +231,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.ReportBugTest">
     <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -247,6 +280,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReportBugTest.testSiteURLSection" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Webcompat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.ReportBugTest" />
+      <option name="METHOD_NAME" value="testSiteURLSection" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -Dbrowser=chrome" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="TestNG">
       <option name="SUITE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="" />
@@ -267,6 +327,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.ReportBugTest" />
+        <item itemvalue="TestNG.ReportBugTest.testSiteURLSection" />
       </list>
     </recent_temporary>
   </component>
@@ -284,34 +345,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ReportBugTest - 2019.10.17 at 14h 06m 31s.xml">
-      <configuration name="ReportBugTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ReportBugTest - 2019.10.17 at 14h 07m 01s.xml">
-      <configuration name="ReportBugTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ReportBugTest - 2019.10.17 at 14h 07m 33s.xml">
-      <configuration name="ReportBugTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ReportBugTest - 2019.10.17 at 14h 10m 39s.xml">
-      <configuration name="ReportBugTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ReportBugTest - 2019.10.17 at 16h 59m 32s.xml">
-      <configuration name="ReportBugTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ReportBugTest - 2019.10.17 at 17h 02m 15s.xml">
-      <configuration name="ReportBugTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ReportBugTest - 2019.10.17 at 17h 02m 16s.xml">
-      <configuration name="ReportBugTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ReportBugTest - 2019.10.17 at 17h 02m 21s.xml">
-      <configuration name="ReportBugTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="ReportBugTest - 2019.10.17 at 17h 02m 32s.xml">
       <configuration name="ReportBugTest" configurationId="TestNG" />
     </history-entry>
     <history-entry file="ReportBugTest - 2019.10.17 at 17h 04m 00s.xml">
+      <configuration name="ReportBugTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ReportBugTest - 2019.10.17 at 17h 26m 10s.xml">
+      <configuration name="ReportBugTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ReportBugTest_testSiteURLSection - 2019.10.18 at 09h 46m 48s.xml">
+      <configuration name="ReportBugTest.testSiteURLSection" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ReportBugTest_testSiteURLSection - 2019.10.18 at 09h 47m 02s.xml">
+      <configuration name="ReportBugTest.testSiteURLSection" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ReportBugTest_testSiteURLSection - 2019.10.18 at 09h 48m 00s.xml">
+      <configuration name="ReportBugTest.testSiteURLSection" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ReportBugTest_testSiteURLSection - 2019.10.18 at 09h 51m 11s.xml">
+      <configuration name="ReportBugTest.testSiteURLSection" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ReportBugTest - 2019.10.18 at 16h 43m 21s.xml">
+      <configuration name="ReportBugTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ReportBugTest - 2019.10.18 at 16h 43m 24s.xml">
+      <configuration name="ReportBugTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ReportBugTest - 2019.10.18 at 16h 43m 52s.xml">
       <configuration name="ReportBugTest" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -326,8 +387,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49859154" visible="true" weight="0.2238806" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49859154" visible="true" weight="0.2260128" />
       <window_info id="Structure" order="1" sideWeight="0.50140846" side_tool="true" weight="0.2217484" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -336,8 +398,8 @@
       <window_info id="Favorites" order="6" sideWeight="0.50140846" side_tool="true" weight="0.2217484" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5254605" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3997833" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3900325" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
@@ -397,35 +459,39 @@
       </map>
     </option>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/tests/ReportBugTest.java</url>
-          <line>30</line>
-          <properties />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/tests/ReportBugTest.java</url>
-          <line>31</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/tests/ReportBugTest.java</url>
-          <line>32</line>
-          <properties />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/tests/ReportBugTest.java</url>
-          <line>23</line>
-          <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>Cookie newDesign = new Cookie.Builder(&quot;exp&quot;, &quot;form-v2&quot;)
+              .domain(&quot;staging.webcompat.com&quot;)
+              .expiresOn(new Date(2020, 10, 28))
+              .isHttpOnly(false)
+              .isSecure(false)
+              .path(&quot;/&quot;)
+              .build();</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>okhttp3.Cookie,java.util.Date</custom-info>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>new Cookie.Builder(&quot;exp&quot;, &quot;form-v2&quot;)
+              .domain(&quot;staging.webcompat.com&quot;)
+              .expiresOn(new Date(2020, 10, 28))
+              .isHttpOnly(false)
+              .isSecure(false)
+              .path(&quot;/&quot;)
+              .build()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>newDesign</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -505,13 +571,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/WebUiPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/WebElement.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -558,33 +617,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/ReportBugTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#357#358#0" expanded="true" />
-            <element signature="e#421#422#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="376">
           <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/Cookie.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="100" selection-start-line="100" selection-end-line="100" />
-          <folding>
-            <element signature="e#2340#2341#0" expanded="true" />
-            <element signature="e#2407#2408#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -705,13 +741,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/Invoker.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="398" selection-start-line="398" selection-end-line="398" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar!/org/openqa/selenium/remote/RemoteWebDriver.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="430">
@@ -759,6 +788,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/Invoker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="343" selection-start-line="343" selection-end-line="343" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/Cookie.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="181" column="30" selection-start-line="181" selection-start-column="30" selection-end-line="181" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/helpers/ChangeBrowserCookie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="14" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/helpers/WebElementHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -766,10 +819,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/WebUiPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1300">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/ReportBugPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-194">
-          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        <state relative-caret-position="392">
+          <caret line="74" column="61" selection-start-line="74" selection-start-column="54" selection-end-line="74" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -778,8 +838,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="-13">
+          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/ReportBugTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

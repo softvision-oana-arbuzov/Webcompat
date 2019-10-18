@@ -6,6 +6,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+import java.util.Date;
+
 import static helpers.WebElementHelper.*;
 
 public class ReportBugPage extends BasePage {
@@ -67,6 +69,17 @@ public class ReportBugPage extends BasePage {
 
     public void open() {
         openUrl(URL);
+    }
+
+    public void setBrowserCookie() {
+        Cookie newDesign = new Cookie.Builder("exp", "form-v2")
+                .domain("staging.webcompat.com")
+                .expiresOn(new Date(2020, 10, 28))
+                .isHttpOnly(false)
+                .isSecure(false)
+                .path("/")
+                .build();
+        getDriver().manage().addCookie(newDesign);
     }
 
 }
